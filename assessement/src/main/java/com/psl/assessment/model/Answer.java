@@ -1,0 +1,36 @@
+package com.psl.assessment.model;
+
+public class Answer {
+
+	private String qid;
+	private String ans;
+	
+	public Answer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Answer(String qid, String ans) {
+		super();
+		this.qid = qid;
+		this.ans = ans;
+	}
+
+	public String getQid() {
+		return qid;
+	}
+
+	public void setQid(String qid) {
+		this.qid = qid;
+	}
+
+	public String getAns() {
+		return ans;
+	}
+
+	public void setAns(String ans) {
+		this.ans = ans;
+	}
+	
+	
+}
