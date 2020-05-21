@@ -21,6 +21,7 @@ import com.psl.assessment.model.UserAssessment;
 @RequestMapping("/assessment")
 public class AssessmentResource {
 
+//checking git functionality here
 	@Autowired
 	RestTemplate restTemplate;
 	
